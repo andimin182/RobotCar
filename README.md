@@ -12,7 +12,8 @@ On the server part, i.e. on the raspberry pi, we installed Ubuntu Mate 20.04 wit
 3. Servo module that implements a Servo class for comunicating with the camera servos.
 
 - robotic_car_pkg that contains:
-1. Listener node that receives commands of type String on the /command topic
+1. Motor Listener node that receives commands of type String on the /command topic in order to move the car
+2. Camera servos node that receives commands of type Int32 on the /servoCamera topic in order to move the camera
 
 ## Client part
 The client part will be represented by my personal laptop, that will connect to the server in order to communicate with the car.
