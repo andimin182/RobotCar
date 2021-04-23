@@ -11,8 +11,8 @@ On the server part, i.e. on the raspberry pi, we installed Ubuntu Mate 20.04 wit
 2. Motor module that implements a Motor class for comunicating with the motor.
 3. Servo module that implements a Servo class for comunicating with the camera servos.
 
-- robotic_car_pkg that contains
-- Listener node that receives commands of type String on the /command topic
+- robotic_car_pkg that contains:
+1. Listener node that receives commands of type String on the /command topic
 
 ## Client part
 The client part will be represented by my personal laptop, that will connect to the server in order to communicate with the car.
@@ -21,4 +21,4 @@ The client part will be represented by my personal laptop, that will connect to 
 - robotic_car_pkg that contains
 1. teleop_motor_keyboard.py publisher in order to publish on the /command topic istructions of type String to move the car.
 
-- face_recognition_pkg
+- face_recognition_pkg that contains the face tracker node for face detection.
