@@ -21,7 +21,8 @@ The client part will be represented by my personal laptop, that will connect to 
 - [X] robotic_car_pkg that contains
    - [x] teleop_motor_keyboard.py publisher in order to publish on the /command topic istructions of type String to move the car.
 
-- [X] face_recognition_pkg that contains the face tracker node for face detection.
+- [X] face_recognition_pkg that contains:
+   - [x] the face tracker node for face detection.
    - [ ] Link the face detection algorithm to camera servos control.
 
 - [ ] Autonomous navigation pkg
