@@ -29,7 +29,7 @@ The client part will be represented by my personal laptop, that will connect to 
   - [ ] Mapping
   - [ ] Estimation
 
-## Application part
+### Application part
 
 - [ ] Web page application 
 - [ ] Mobile application
