@@ -6,11 +6,12 @@ The aim is to construct a 4W robotic car with a Raspberry pi 4 B as a microcontr
 On the server part, i.e. on the raspberry pi, we installed Ubuntu Mate 20.04 with ROS Noetic.
 
 ### DONE
-- drivers_pkg that contains:
-1. The PCA9685 python module in order to comunicate with the servo motors and the 2 DoF camera servos.
-2. Motor module that implements a Motor class for comunicating with the motor.
-3. Servo module that implements a Servo class for comunicating with the camera servos.
-
+- [X]drivers_pkg that contains:
+   - [x] The PCA9685 python module in order to comunicate with the servo motors and the 2 DoF camera servos.
+   - [x] Motor module that implements a Motor class for comunicating with the motor.
+   - [x] Servo module that implements a Servo class for comunicating with the camera servos.
+   - [] Ultrasonic module in order to get the data from the sonar sensor
+   
 - robotic_car_pkg that contains:
 1. Motor Listener node that receives commands of type String on the /command topic in order to move the car
 2. Camera servos node that receives commands of type Int32 on the /servoCamera topic in order to move the camera
