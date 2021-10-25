@@ -9,7 +9,7 @@ On the server part, i.e. on the raspberry pi, we installed Ubuntu Mate 20.04 wit
    - [x] The PCA9685 python module in order to comunicate with the servo motors and the 2 DoF camera servos.
    - [x] Motor module that implements a Motor class for comunicating with the motor.
    - [x] Servo module that implements a Servo class for comunicating with the camera servos.
-   - [ ] Ultrasonic module in order to get the data from the sonar sensor
+   - [x] Ultrasonic module in order to get the data from the sonar sensor
    
 - [X] robotic_car_pkg that contains:
    - [x] Motor Listener node that receives commands of type String on the /command topic in order to move the car
@@ -32,4 +32,4 @@ The client part will be represented by my personal laptop, that will connect to 
 ### Application part
 
 - [ ] Web page application 
-- [ ] Mobile application
+- [x] Mobile application
