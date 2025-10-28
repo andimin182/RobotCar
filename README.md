@@ -1,6 +1,6 @@
 # RobotCar
 
-The aim is to construct a 4W robotic car with a Raspberry pi 4 B as a microcontroller, construct a Server-Client architecture and remotly control the car from my laptop first, and a Web application (and mobile application) later. 
+The aim is to construct a 4W robotic car with a Raspberry pi 4 B as a microcontroller, construct a Server-Client architecture and remotly control the car from my laptop as well as from a custom mobile application (developed with Flutter framework. 
 
 ![ROS Flutter Car Control](robot-car.jpg)
 
