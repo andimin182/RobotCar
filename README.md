@@ -2,6 +2,8 @@
 
 The aim is to construct a 4W robotic car with a Raspberry pi 4 B as a microcontroller, construct a Server-Client architecture and remotly control the car from my laptop first, and a Web application (and mobile application) later. 
 
+![ROS Flutter Car Control](robot-car.png)
+
 ## Server part
 On the server part, i.e. on the raspberry pi, we installed Ubuntu Mate 20.04 with ROS Noetic.
 
